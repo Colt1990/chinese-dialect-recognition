@@ -7,5 +7,7 @@ For this challenge, a database covering China's 10 major dialects will be open. 
 python 2.29 
 
 pytorch 0.4.0 
-webrtcvad 
+
+webrtcvad
+
 wave 
