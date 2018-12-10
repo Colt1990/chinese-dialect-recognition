@@ -1,2 +1,3 @@
 # chinese-dialect-recognizaiton
-7th/1817 in the iFLYTEK AI Developer Challenge, this code was pytorch based.
+## Backgound:
+For this challenge, a database covering China's 10 major dialects will be open. Challengers shall take both or either of two tasks with different difficulties.  In each task, challengers are required to build a system that automatically identifies and assorts the audio files with different durations (≤3s for the first task and >3s for the second task) provided in the challenge. The final ranking will be decided based on the classification accuracy of your system.  Training set and development set is open for challengers' use but the test set is not open to the public.
