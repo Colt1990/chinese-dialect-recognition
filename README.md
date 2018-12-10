@@ -4,7 +4,8 @@ For this challenge, a database covering China's 10 major dialects will be open. 
 ![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
 
 ## Requirments
-python 2.29 \n
-pytorch 0.4.0 /n
-webrtcvad /n
-wave /n
+python 2.29 
+
+pytorch 0.4.0 
+webrtcvad 
+wave 
