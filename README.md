@@ -41,11 +41,10 @@ SAVEWITHCRC = F
 ・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.   
 
 ## Requirments
-python 2.29   
 pytorch 0.4.0  
 webrtcvad  
-wave 
 
 
 ## Reference
 1. http://yerevann.github.io/2016/06/26/combining-cnn-and-rnn-for-spoken-language-identification/
+2. https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/discussion/46945
