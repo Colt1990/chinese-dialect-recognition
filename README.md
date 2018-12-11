@@ -28,7 +28,7 @@ SAVEWITHCRC = F
 ## What I learned from this challenge
 ・PLP feature is quite useful for dialect recognition. Although only MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.
 ・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.  
-・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, the result was not good.   
+・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.   
 
 ## Requirments
 python 2.29   
