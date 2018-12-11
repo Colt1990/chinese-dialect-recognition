@@ -8,10 +8,10 @@ This code was revised based on the baseline code offered by iFLYTEK.
 
 ## Feature
 The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
-OURCEFORMAT = NOHEAD
-SOURCERATE = 625 
-HEADERSIZE = 44
-TARGETKIND = FBANK
+OURCEFORMAT = NOHEAD  
+SOURCERATE = 625  
+HEADERSIZE = 44  
+TARGETKIND = FBANK  
 TARGETRATE = 80000.0
 ZMEANSOURCE = T
 WINDOWSIZE = 200000.0
