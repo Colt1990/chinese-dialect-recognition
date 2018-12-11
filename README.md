@@ -1,9 +1,8 @@
 # chinese-dialect-recognition
 ## Background:
-For this challenge, a database covering China's 10 major dialects will be open. Challengers shall take both or either of two tasks with different difficulties.  In each task, challengers are required to build a system that automatically identifies and assorts the audio files with different durations (≤3s for the first task and >3s for the second task) provided in the challenge. The final ranking will be decided based on the classification accuracy of your system.  Training set and development set is open for challengers' use but the test set is not open to the public.
+For this challenge, a database covering China's 10 major dialects were provided include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
 ## Network
-This code was revised based on the baseline code offered by iFLYTEK. 
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
 
 ## Feature
