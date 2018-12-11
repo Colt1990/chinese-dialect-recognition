@@ -12,32 +12,28 @@ OURCEFORMAT = NOHEAD
 SOURCERATE = 625  
 HEADERSIZE = 44  
 TARGETKIND = FBANK  
-TARGETRATE = 80000.0
-ZMEANSOURCE = T
-WINDOWSIZE = 200000.0
-USEHAMMING = T
-PREEMCOEF = 0.97
-NUMCHANS = 40
-LOFREQ = 0
-HIFREQ = 5500
-USEPOWER = F
-NUMCEPS = 12
-CEPLIFTER = 22
-SAVEWITHCRC = F
+TARGETRATE = 80000.0  
+ZMEANSOURCE = T  
+WINDOWSIZE = 200000.0  
+USEHAMMING = T  
+PREEMCOEF = 0.97  
+NUMCHANS = 40  
+LOFREQ = 0  
+HIFREQ = 5500  
+USEPOWER = F  
+NUMCEPS = 12  
+CEPLIFTER = 22  
+SAVEWITHCRC = F  
 
 ## What I learned from this challenge
 ・PLP feature is quite useful for dialect recognition. Although only MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.
-・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.
-
+・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.  
 ・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, the result was not good.   
 
 ## Requirments
-python 2.29 
-
-pytorch 0.4.0 
-
-webrtcvad
-
+python 2.29   
+pytorch 0.4.0  
+webrtcvad  
 wave 
 
 
