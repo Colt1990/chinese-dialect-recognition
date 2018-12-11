@@ -6,6 +6,25 @@ For this challenge, a database covering China's 10 major dialects will be open. 
 This code was revised based on the baseline code offered by iFLYTEK. 
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
 
+## Feature
+The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
+OURCEFORMAT = NOHEAD
+SOURCERATE = 625 
+HEADERSIZE = 44
+TARGETKIND = FBANK
+TARGETRATE = 80000.0
+ZMEANSOURCE = T
+WINDOWSIZE = 200000.0
+USEHAMMING = T
+PREEMCOEF = 0.97
+NUMCHANS = 40
+LOFREQ = 0
+HIFREQ = 5500
+USEPOWER = F
+NUMCEPS = 12
+CEPLIFTER = 22
+SAVEWITHCRC = F
+
 ## What I learned from this challenge
 ・PLP feature is quite useful for dialect recognition. Although only MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.
 ・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.
