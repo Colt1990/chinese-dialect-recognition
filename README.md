@@ -20,3 +20,7 @@ pytorch 0.4.0
 webrtcvad
 
 wave 
+
+
+## Reference
+1. http://yerevann.github.io/2016/06/26/combining-cnn-and-rnn-for-spoken-language-identification/
