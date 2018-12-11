@@ -1,6 +1,6 @@
 # chinese-dialect-recognition
 ## Background:
-For this challenge, a database covering China's 10 major dialects were provided include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
+For this challenge, a database covering China's 10 major dialects were provided by iFLYTEK which include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
 ## Network
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
@@ -14,7 +14,11 @@ LanNet(
   (layer3): Sequential(  
     (linear): Linear(in_features=192, out_features=10, bias=True)  
   )  
-)  
+) 
+
+During the training process, the initial learning rate was choosen as 0.05. The optimizer was SGD with momentum=0.9. 
+After four epoch training, the learning rate would be halved for every epoch.
+
 
 ## Feature
 The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
