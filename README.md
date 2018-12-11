@@ -4,6 +4,17 @@ For this challenge, a database covering China's 10 major dialects were provided 
 
 ## Network
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
+LanNet(
+  (layer1): Sequential(
+    (GRU): GRU(40, 512, num_layers=2, batch_first=True)
+  )
+  (layer2): Sequential(
+    (linear): Linear(in_features=512, out_features=192, bias=True)
+  )
+  (layer3): Sequential(
+    (linear): Linear(in_features=192, out_features=10, bias=True)
+  )
+)
 
 ## Feature
 The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
