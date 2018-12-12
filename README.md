@@ -41,7 +41,7 @@ SAVEWITHCRC = F
 
 ## What I learned from this challenge
 ・PLP feature is quite useful for dialect recognition. Although MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.  
-・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.    
+・VAD processing and FilterBank feature with <5.5KHz frequencies were found quite useful in this task.    
 ・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.  
 ・For these ten kinds of dialect, some dialects like Sichuan and Shanghai are easily to be recognized when compared to other dialects. So two step learning(coarse classification and fine classification) or multi-task learning may improve your performance.
 
