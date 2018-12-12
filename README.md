@@ -2,7 +2,7 @@
 ## Background:
 For this challenge, a database covering China's 10 major dialects were provided by iFLYTEK which include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
-## Network
+## Network used in this work
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
 LanNet(  
   (layer1): Sequential(  
@@ -20,7 +20,7 @@ During the training process, the initial learning rate was choosen as 0.05. The 
 After four epoch training, the learning rate would be halved for every epoch.
 
 
-## Feature
+## Feature used in this work
 The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
 OURCEFORMAT = NOHEAD  
 SOURCERATE = 625  
@@ -40,9 +40,10 @@ CEPLIFTER = 22
 SAVEWITHCRC = F  
 
 ## What I learned from this challenge
-・PLP feature is quite useful for dialect recognition. Although only MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.
-・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.  
-・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.   
+・PLP feature is quite useful for dialect recognition. Although MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.  
+・VAD processing and FilterBank feature with only <5.5KHz frequencies used are quite useful.    
+・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.  
+・For these ten kinds of dialect, some dialects like Sichuan and Shanghai are easily to be recognized when compared to other dialects. So two step learning(coarse classification and fine classification) or multi-task learning may improve your performance.
 
 ## Requirments
 pytorch 0.4.0  
