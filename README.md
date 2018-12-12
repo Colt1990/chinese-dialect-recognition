@@ -47,7 +47,7 @@ SAVEWITHCRC = F
 
 ## Requirments
 pytorch 0.4.0  
-webrtcvad  
+webrtcvad (you can check https://github.com/wiseman/py-webrtcvad to do the vad process)
 
 
 ## Reference
