@@ -3,7 +3,7 @@
 For this challenge, a database covering China's 10 major dialects were provided by iFLYTEK which include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
 ## Network used in this work
-![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/mind mapping.png)
+![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/mindmapping.png)
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
 LanNet(  
   (layer1): Sequential(  
