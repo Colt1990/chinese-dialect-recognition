@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 class LanNet(nn.Module):
-    def __init__(self, input_dim=48, hidden_dim=2048, bn_dim=100, output_dim=10):
+    def __init__(self, input_dim=40, hidden_dim=512, bn_dim=192, output_dim=10):
         super(LanNet, self).__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
