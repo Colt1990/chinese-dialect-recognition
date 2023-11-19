@@ -1,10 +1,10 @@
 # chinese-dialect-recognition
 
-### 20230823更新
+## 20230823更新
 大模型！大模型！大模型！
 打不过了我学还不行么。 各类语音数据集以及预训练模型。
 
-#### Dataset 资源连接  
+### Dataset 资源连接  
 3D-Speaker https://3dspeaker.github.io  
 AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1  
 CI-AVSR https://github.com/HLTCHKUST/CI-AVSR  
@@ -21,7 +21,7 @@ OpenSLR https://www.openslr.org/resources.php
 VoxCeleb1/2 https://www.robots.ox.ac.uk/~vgg/data/voxceleb  
 中国语言保护平台 https://zhongguoyuyan.cn/index  
 
-#### Pretrained model 资源连接  
+### Pretrained model 资源连接  
 AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1  
 chinese_speech_pretrain https://github.com/TencentGameMate/chinese_speech_pretrain  
 chinese-hubert-large https://huggingface.co/TencentGameMate/chinese-hubert-large  
@@ -41,7 +41,7 @@ whisper-large-v2 https://huggingface.co/openai/whisper-large-v2
 whisper-large-zh-cv11 https://huggingface.co/jonatasgrosman/whisper-large-zh-cv11  
 
 
-### 20220809更新
+## 20220809更新
 站在2022的时间点往回看，当初的语种分类模型早已时过境迁。这4年，从最初的RNN到CNN的代表作Resnet系列，再到Transformer各个领域通吃，可供选择的模型、数据增强的方法、优化策略已眼花缭乱。  
 【目前的思路】   
 有语音文本标签：先预训练ASR模型，再将decoder部分换成分类层训练分类模型  
