@@ -5,40 +5,40 @@
 打不过了我学还不行么。 各类语音数据集以及预训练模型。
 
 Dataset 资源连接
-3D-Speaker https://3dspeaker.github.io
-AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1
-CI-AVSR https://github.com/HLTCHKUST/CI-AVSR
-MUSAN —— (OpenSLR17)
-rirs_noises —— (OpenSLR28)
-CNCeleb —— (OpenSLR82)
-CommonVoice https://huggingface.co/datasets/common_voice
-CommonVoice-zh https://commonvoice.mozilla.org/zh-CN/datasets
-CSTR_VCTK https://datashare.ed.ac.uk/handle/10283/2950
-HAL https://ai.100tal.com/openData/voice
-KeSpeech https://github.com/KeSpeech/KeSpeech
-multilingual_librispeech https://huggingface.co/datasets/multilingual_librispeech
-OpenSLR https://www.openslr.org/resources.php
-VoxCeleb1/2 https://www.robots.ox.ac.uk/~vgg/data/voxceleb
-中国语言保护平台 https://zhongguoyuyan.cn/index
+3D-Speaker https://3dspeaker.github.io  
+AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1  
+CI-AVSR https://github.com/HLTCHKUST/CI-AVSR  
+MUSAN —— (OpenSLR17)  
+rirs_noises —— (OpenSLR28)  
+CNCeleb —— (OpenSLR82)  
+CommonVoice https://huggingface.co/datasets/common_voice  
+CommonVoice-zh https://commonvoice.mozilla.org/zh-CN/datasets  
+CSTR_VCTK https://datashare.ed.ac.uk/handle/10283/2950  
+HAL https://ai.100tal.com/openData/voice  
+KeSpeech https://github.com/KeSpeech/KeSpeech  
+multilingual_librispeech https://huggingface.co/datasets/multilingual_librispeech  
+OpenSLR https://www.openslr.org/resources.php  
+VoxCeleb1/2 https://www.robots.ox.ac.uk/~vgg/data/voxceleb  
+中国语言保护平台 https://zhongguoyuyan.cn/index  
 
 Pretrained model 资源连接
-AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1
-chinese_speech_pretrain https://github.com/TencentGameMate/chinese_speech_pretrain
-chinese-hubert-large https://huggingface.co/TencentGameMate/chinese-hubert-large
-ECAPA-TDNN https://github.com/TaoRuijie/ECAPA-TDNN
-hubert-large-ll60k https://huggingface.co/facebook/hubert-large-ll60k
-Meta MMS https://huggingface.co/facebook/mms-lid-4017
-ccc-wav2vec2-base-100h https://huggingface.co/vasista22/ccc-wav2vec2-base-100h
-wav2vec2-large-xlsr-53-chinese-zh-cn https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn
-wav2vec2-large-xlsr-53-chinese-zh-cn-gpt https://huggingface.co/ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt
-wav2vec2-large-xlsr-53-english https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english
-wav2vec2-xls-r-2b https://huggingface.co/facebook/wav2vec2-xls-r-2b
-wav2vec2-xls-r-1b https://huggingface.co/facebook/wav2vec2-xls-r-1b
-wavlm-base-plus https://huggingface.co/microsoft/wavlm-base-plus
-wavlm-large https://huggingface.co/microsoft/wavlm-large
-whisper-base https://huggingface.co/openai/whisper-base
-whisper-large-v2 https://huggingface.co/openai/whisper-large-v2
-whisper-large-zh-cv11 https://huggingface.co/jonatasgrosman/whisper-large-zh-cv11
+AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1  
+chinese_speech_pretrain https://github.com/TencentGameMate/chinese_speech_pretrain  
+chinese-hubert-large https://huggingface.co/TencentGameMate/chinese-hubert-large  
+ECAPA-TDNN https://github.com/TaoRuijie/ECAPA-TDNN  
+hubert-large-ll60k https://huggingface.co/facebook/hubert-large-ll60k  
+Meta MMS https://huggingface.co/facebook/mms-lid-4017  
+ccc-wav2vec2-base-100h https://huggingface.co/vasista22/ccc-wav2vec2-base-100h  
+wav2vec2-large-xlsr-53-chinese-zh-cn https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn  
+wav2vec2-large-xlsr-53-chinese-zh-cn-gpt https://huggingface.co/ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt  
+wav2vec2-large-xlsr-53-english https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-english  
+wav2vec2-xls-r-2b https://huggingface.co/facebook/wav2vec2-xls-r-2b  
+wav2vec2-xls-r-1b https://huggingface.co/facebook/wav2vec2-xls-r-1b  
+wavlm-base-plus https://huggingface.co/microsoft/wavlm-base-plus  
+wavlm-large https://huggingface.co/microsoft/wavlm-large  
+whisper-base https://huggingface.co/openai/whisper-base  
+whisper-large-v2 https://huggingface.co/openai/whisper-large-v2  
+whisper-large-zh-cv11 https://huggingface.co/jonatasgrosman/whisper-large-zh-cv11  
 
 
 ### 20220809更新
