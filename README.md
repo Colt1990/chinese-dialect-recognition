@@ -4,7 +4,7 @@
 大模型！大模型！大模型！
 打不过了我学还不行么。 各类语音数据集以及预训练模型。
 
-数据 资源连接
+Dataset 资源连接
 3D-Speaker https://3dspeaker.github.io
 AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1
 CI-AVSR https://github.com/HLTCHKUST/CI-AVSR
@@ -21,7 +21,7 @@ OpenSLR https://www.openslr.org/resources.php
 VoxCeleb1/2 https://www.robots.ox.ac.uk/~vgg/data/voxceleb
 中国语言保护平台 https://zhongguoyuyan.cn/index
 
-模型 资源连接
+Pretrained model 资源连接
 AST: Audio Spectrogram Transformer https://www.dropbox.com/s/cv4knew8mvbrnvq/audioset_0.4593.pth?dl=1
 chinese_speech_pretrain https://github.com/TencentGameMate/chinese_speech_pretrain
 chinese-hubert-large https://huggingface.co/TencentGameMate/chinese-hubert-large
