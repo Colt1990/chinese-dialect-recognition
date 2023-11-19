@@ -48,10 +48,11 @@ whisper-large-zh-cv11 https://huggingface.co/jonatasgrosman/whisper-large-zh-cv1
 无语音文本标签：wav2vec无监督预训练
 
 
-## Background:
+## 2018 Changsha Dialect Classification  
+### Background:
 For this challenge, a database covering China's 10 major dialects were provided by iFLYTEK which include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
-## Network used in this work
+### Network used in this work
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/dialect_recognition.svg)  
 
 ![image](https://github.com/Colt1990/chinese-dialect-recognizaiton/blob/master/image/network.png)
@@ -71,7 +72,7 @@ During the training process, the initial learning rate was choosen as 0.05. The 
 After four epoch training, the learning rate would be halved for every epoch.
 
 
-## Feature used in this work
+### Feature used in this work
 The following are the parameters used for HTK tools to obtain the FilterBank feature from the raw PCM files(16000Hz，16bit).
 OURCEFORMAT = NOHEAD  
 SOURCERATE = 625  
@@ -90,17 +91,17 @@ NUMCEPS = 12
 CEPLIFTER = 22  
 SAVEWITHCRC = F  
 
-## What I learned from this challenge
+### What I learned from this challenge
 ・PLP feature is quite useful for dialect recognition. Although MFCC and FilterBank features were tried in this work and FilterBank showed better performance than MFCC, PLP may give the best performance from the results of other contestants.  
 ・VAD processing and FilterBank feature with <5.5KHz frequencies were found quite useful in this task.    
 ・It is worth a try to use the powerful CNN network Resnet. Although I tried VGG16, failing to get a good performance.  
 ・For these ten kinds of dialect, some dialects like Sichuan and Shanghai are easily to be recognized when compared to other dialects. So two step learning(coarse classification and fine classification) or multi-task learning may improve your performance.
 
-## Requirments
+### Requirments
 pytorch 0.4.0  
 webrtcvad (you can check https://github.com/wiseman/py-webrtcvad to do the vad process)
 
 
-## Reference
+### Reference
 1. http://yerevann.github.io/2016/06/26/combining-cnn-and-rnn-for-spoken-language-identification/
 2. https://www.kaggle.com/c/tensorflow-speech-recognition-challenge/discussion/46945
