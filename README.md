@@ -48,7 +48,7 @@ whisper-large-zh-cv11 https://huggingface.co/jonatasgrosman/whisper-large-zh-cv1
 无语音文本标签：wav2vec无监督预训练
 
 
-## 2018 Changsha Dialect Classification  
+## 2018 Chinese Dialect Classification  
 ### Background:
 For this challenge, a database covering China's 10 major dialects were provided by iFLYTEK which include Changsha Dialect, Hebei Dialect, Nanchang Dialect, Shanghai Dialect, Fujian Dialect and Kejia Dialect,Ningxia Dialect,Hefei Dialect,Sichuan Dialect and Shan3xi Dialect. In this task, challengers were required to build a system that automatically identifies and assorts the audio files with different durations ( >3s for the task) provided in the challenge. 
 
